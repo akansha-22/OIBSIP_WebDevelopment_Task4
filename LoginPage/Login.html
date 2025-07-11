@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" class="auth-page">
+<head>
+  <meta charset="UTF-8">
+  <title>Login page</title>
+  <link rel="stylesheet" href=Login.css>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="text" id="loginUsername" placeholder="Username" required>
+
+      <div class="password-container">
+        <input type="password" id="loginPassword" placeholder="Enter Password" required>
+        <label><input type="checkbox" onclick="togglePassword('loginPassword')"> Show Password</label>
+      </div>
+
+      <button type="submit">Login</button>
+      <p id="loginMsg"></p>
+    </form>
+    <p>New user? <a href="Register.html">Register here</a></p>
+  </div>
+  <script src="Login.js"></script>
+</body>
+</html>

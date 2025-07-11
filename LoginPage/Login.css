@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+.auth-page body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #65f1f6, #fda085);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.auth-page .container {
+  background: #ffffff51;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 320px;
+}
+
+.auth-page h2 {
+  text-align: center;
+  color: #333;
+}
+
+.auth-page form {
+  margin-bottom: 20px;
+}
+
+.auth-page input[type="text"],
+.auth-page input[type="password"] {
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.auth-page label{
+  color: #333;
+  font-size: 13px;
+}
+
+.auth-page .password-container {
+  position: relative;
+}
+
+.auth-page .toggle-password {
+  display: none;
+}
+
+.auth-page button {
+  width: 100%;
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.auth-page button:hover {
+  background: #218838;
+}
+
+.auth-page p {
+  font-size: 14px;
+  color: green;
+  text-align: center;
+}
+
+.auth-page a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.secured-page body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(145deg, #deea30, #f54296);
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  margin: 0;
+  height: 100vh;
+}
+
+.secured-page .box {
+  background-color: rgba(68, 66, 66, 0.597);
+  padding: 30px;
+  margin: auto;
+  border-radius: 10px;
+  width: 60%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.secured-page h1 {
+  margin-bottom: 10px;
+}
+
+.secured-page p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.secured-page button {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.secured-page button:hover {
+  background-color: #c0392b;
+}

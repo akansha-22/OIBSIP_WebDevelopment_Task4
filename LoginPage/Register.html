@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" class="auth-page">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Register</h2>
+    <form id="registerForm">
+      <input type="text" id="regUsername" placeholder="Username" required>
+
+      <div class="password-container">
+        <input type="password" id="regPassword" placeholder="Password" required>
+      </div>
+      <label><input type="checkbox" onclick="togglePassword('regPassword')"> Show Password</label>
+
+
+      <div class="password-container">
+        <input type="password" id="regRePassword" placeholder="Re-enter Password" required>
+      </div>
+      <label><input type="checkbox" onclick="togglePassword('regRePassword')"> Show Password</label>
+
+
+      <button type="submit">Register</button>
+      <p id="registerMsg"></p>
+    </form>
+    <p>Already registered? <a href="Login.html">Login here</a></p>
+  </div>
+  <script src="Login.js"></script>
+</body>
+</html>
